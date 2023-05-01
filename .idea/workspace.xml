@@ -10,69 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ffbd386-9605-497f-a335-394e7b83d88f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/authentication/CreateDriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/authentication/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/authentication/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/AddCarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/AddDriverToCarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/DeleteCarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/car/GetAllCarsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/AddDriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/DeleteDriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/GetAllDriversController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/driver/cars/GetMyCurrentCarsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/AddManufacturerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/DeleteManufacturerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/manufacturer/GetAllManufacturersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/CarDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/CarDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/DriverDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/DriverDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/ManufacturerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/dao/ManufacturerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/exception/AuthenticationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/exception/DataProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/lib/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/model/Manufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/DriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/DriverServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/ManufacturerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/ManufacturerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/authentication/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/service/authentication/AuthenticationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/util/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taxi/web/filter/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/init_db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/authentication/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/authentication/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/authentication/registration.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars/all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars/drivers/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/table_dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drivers/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/drivers/all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manufacturers/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manufacturers/all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taxi/util/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taxi/util/ConnectionUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +163,7 @@
       <workItem from="1682934855103" duration="635000" />
       <workItem from="1682937236043" duration="157000" />
       <workItem from="1682937415006" duration="5293000" />
+      <workItem from="1682961836922" duration="2236000" />
     </task>
     <servers />
   </component>
