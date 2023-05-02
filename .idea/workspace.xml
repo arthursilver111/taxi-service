@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ffbd386-9605-497f-a335-394e7b83d88f" name="Changes" comment="">
+    <list default="true" id="8ffbd386-9605-497f-a335-394e7b83d88f" name="Changes" comment="Version 1.1 (Changed README.md)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taxi/util/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taxi/util/ConnectionUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,11 +161,27 @@
       <workItem from="1682934855103" duration="635000" />
       <workItem from="1682937236043" duration="157000" />
       <workItem from="1682937415006" duration="5293000" />
-      <workItem from="1682961836922" duration="2236000" />
+      <workItem from="1682961836922" duration="2909000" />
+      <workItem from="1682966603216" duration="65000" />
+      <workItem from="1682967042499" duration="2000" />
+      <workItem from="1682967637751" duration="1191000" />
+      <workItem from="1683023974821" duration="6769000" />
     </task>
+    <task id="LOCAL-00001" summary="Version 1.1 (Changed README.md)">
+      <created>1682965941351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682965941351</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.1 (Changed README.md)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1 (Changed README.md)" />
   </component>
 </project>
